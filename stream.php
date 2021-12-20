@@ -1,5 +1,5 @@
 <?php
-$p= @file_get_contents("http://rrsocialapp.azurewebsites.net/token.php"); # Change This Path According to Your Server and Folder
+$p= @file_get_contents("https://rrsocialapp.azurewebsites.net/token.php"); # Change This Path According to Your Server and Folder
 
 
 # © 2021 Avishkar Patil DO NOT EDIT ANYTHING TO KEEP RUNNING
@@ -25,7 +25,7 @@ if(@$_REQUEST["key"]!="")
 "srno: 200206173037\r\n" .
 "usergroup: tvYR7NSNn7rymo3F\r\n" .
 "channelid: 472\r\n" .
-"ssotoken: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWUiOiJjMTQ2NGVlZi1mZmNmLTRmMWEtYTU5NC0yMGRiYTI1ZTgyNjYiLCJ1c2VyVHlwZSI6IlJJTHBlcnNvbiIsImF1dGhMZXZlbCI6IjQwIiwiZGV2aWNlSWQiOiI4ODAyNjZhY2I1NDcyYmJjYWYwZTY0ZWE2YmE0NWE2ZDM1ZTAxNzVkZWQ2NTk4OTIwNGM0NDRhNzlhN2U3MWM4MDA0YWVkNTJlMDgyYWYzN2JkYjk1NGJiNTYxYjM3YmMxOWViOWMzNWMwZmI2MWFjOWVlZjE2ZjM3OTMwOWExNiIsImp0aSI6IjFiZTU2NDNlLWEzM2QtNDRjMS1hZjNlLTEyYzViOWEwMzhiMiIsImlhdCI6MTYzOTQ5NjE5NX0.LgqdjP9U-HnhzfmxJGVOw8JPCz8OvwRP4y9_oArhD4c\r\n" #Change To Your Details
+"ssotoken: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWUiOiJjMTQ2NGVlZi1mZmNmLTRmMWEtYTU5NC0yMGRiYTI1ZTgyNjYiLCJ1c2VyVHlwZSI6IlJJTHBlcnNvbiIsImF1dGhMZXZlbCI6IjQwIiwiZGV2aWNlSWQiOiI4ODAyNjZhY2I1NDcyYmJjYWYwZTY0ZWE2YmE0NWE2ZDM1ZTAxNzVkZWQ2NTk4OTIwNGM0NDRhNzlhN2U3MWM4MDA0YWVkNTJlMDgyYWYzN2JkYjk1NGJiNTYxYjM3YmMxOWViOWMzNWMwZmI2MWFjOWVlZjE2ZjM3OTMwOWExNiIsImp0aSI6IjljOWVmODg5LWRhOTYtNDkzYS04ZmIzLTJkNjhjOGRjMzZkOSIsImlhdCI6MTYzOTk4NzIxMn0.qG_Tg4opBz2Ug9R7tJRj2e-AM2qaQnarBtS2oiM1vNE\r\n" #Change To Your Details
 	    
     ]
 ];
